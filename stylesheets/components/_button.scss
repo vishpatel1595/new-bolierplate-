@@ -1,0 +1,153 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.contain-btn {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    &:hover,
+    &:focus {
+        background-color: #F082AC;
+    }
+
+}
+
+.outline-btn {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: rgb(0 0 0 / 2%) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+
+    &:hover,
+    &:focus {
+        border: 1px solid blue;
+        color: white;
+        background-color: blue;
+    }
+}
+
+.text-btn {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+
+    &:hover,
+    &:focus {
+        color: red;
+    }
+}
+
+
+.icon-btn-circle {
+    background: yellow;
+    border: 1px solid yellow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 14px 16px;
+    border-radius:50%;
+
+    
+    &:hover {
+        color: white;
+        background-color: orange;
+        border: 1px solid yellow;
+    }
+}
+
+.icon-btn-square {
+    background: yellow;
+    border: 1px solid yellow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 12px;
+    border-radius:0;
+        
+    &:hover {
+        color: white;
+        background-color: #1900f7;
+        border: 1px solid #1900f7;
+    }
+
+}
+
+.icon-btn {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 16px;
+    border-radius:none;
+    
+    &:hover {
+        color: red;
+    }
+}
